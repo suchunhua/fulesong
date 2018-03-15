@@ -1,0 +1,8 @@
+html{overflow:hidden;}
+.light-login{  background: #06c; background-size: cover;}
+#large-header{position:absolute;}
+
+@media (min-width: 960px){
+	.kykkk{width:352px; position:absolute; left:50%; top:50%; margin-left:-176px; margin-top:-222px;}
+}
+.login-layout .widget-box .widget-main{padding:8px;}

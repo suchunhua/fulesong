@@ -1,0 +1,118 @@
+html,body{overflow-x: hidden !important; min-height: 100.1% !important}
+.upbutton{padding:2px 10px;}
+.cfgtable{padding: 16px 0 0 10px !important}
+.w100{width:100px;}
+.w90{width:90px;}
+.w80{width:80px;}
+.w70{width:70px;}
+.w60{width:60px;}
+.w50{width:50px;}
+.w30{width:30px;}
+.h42{height: 42px !important;}
+.h130{height: 130px !important}
+.h110{height: 110px !important}
+
+.wh100{max-width: 100% !important; max-height: 100% !important; vertical-align: middle;}
+.h44{height: 44px}
+.bdno{border:none !important;}
+.ky_btn{
+  -webkit-border-radius:3px 3px 3px 3px;
+  -moz-border-radius:3px 3px 3px 3px;
+  -ms-border-radius:3px 3px 3px 3px;
+  -o-border-radius:3px 3px 3px 3px;
+  border-radius:3px 3px 3px 3px;
+  color: #fff;
+  border:none;
+  cursor:pointer;
+  text-align: center;
+  display: inline-block;
+   transition: all 0.2s linear 0s;
+}
+
+.p715{padding:7px 15px;}
+.pt16{padding:16px 0 0 0 !important;}
+.pt14{padding:14px 0 0 0px !important;}
+.p46{padding:4px 6px !important;}
+
+.btn_blue{
+  background: #2a8bcb !important;
+  background-image: -webkit-linear-gradient(top, #3B98D6 0%, #197EC1 100%) !important;
+  background-image: -o-linear-gradient(top, #3B98D6 0%, #197EC1 100%) !important;
+  background-image: linear-gradient(to bottom, #3B98D6 0%, #197EC1 100%) !important;
+  background-repeat: repeat-x !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b98d6', endColorstr='#ff197ec1', GradientType=0) !important;
+ 
+}
+.btn_blue:hover{
+  background: #1d6fa6 !important;
+  background-image: -webkit-linear-gradient(top, #267eb8 0%, #136194 100%) !important;
+  background-image: -o-linear-gradient(top, #267eb8 0%, #136194 100%) !important;
+  background-image: linear-gradient(to bottom, #267eb8 0%, #136194 100%) !important;
+  background-repeat: repeat-x !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff267eb8', endColorstr='#ff136194', GradientType=0) !important;
+}
+.btn_green{
+  background: #85b558 !important;
+  background-image: -webkit-linear-gradient(top, #8EBF60 0%, #7DAA50 100%) !important;
+  background-image: -o-linear-gradient(top, #8EBF60 0%, #7DAA50 100%) !important;
+  background-image: linear-gradient(to bottom, #8EBF60 0%, #7DAA50 100%) !important;
+  background-repeat: repeat-x !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8ebf60', endColorstr='#ff7daa50', GradientType=0) !important;
+}
+
+/*方便调试最后要删除*/
+/*.navbar-fixed-top, .navbar-fixed-bottom {
+    position:relative !important;
+    right: 0;
+    left: 0;
+    z-index: 1030;*/
+
+.submitbtn{position:fixed; bottom:4px; right:10px; z-index: 9999; padding:7px;}
+
+
+.bdlno{border-left:0 !important;}
+
+
+.curlang{position: absolute; width: 14px; height: 14px; background: url(../images/yes.png); bottom: 1px; right: 2px; z-index: 99}
+
+.formdata{ border: 1px solid #ddd; padding:10px 0;}
+.formdata h2{ font-size: 36px }
+
+
+.delpic {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.3) url('/run_style/admin/images/no.gif') no-repeat center center;
+}
+.navcur{background: #edf4f9}
+.two,.three,.four{display: none}
+.zkgb{margin-right: 3px; position: relative; top: -2px; width: 12px;}
+
+.vmd td{vertical-align: middle !important}
+
+.maintop{height: 50px; background: #f00; margin: 0; background: #edf4f9; border:1px solid #ddd; border-bottom:0px;}
+.maintop a{margin-top: 10px;}
+.maintop .pagination{margin:7px 0 0 0;}
+
+.mt7{margin-top: 7px;}
+.pd4550{padding: 4px 5px 5px 0;}
+.pd0005{padding: 0 0 0 5px;}
+.pdno{padding: 0px }
+.jiansuo{background-color: transparent; border:0px; }
+
+.mt10{margin-top:10px;}
+.m0003{margin: 0 0 0 3px;}
+
+.pt12{padding-top:12px !important;}
+option:disabled{
+  border: 1px solid #DDD;
+  background-color: #F5F5F5;
+  color:#ACA899;
+}
+
+
+.rules{background:#ecf6f5 !important}

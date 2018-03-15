@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>福乐颂中秋专题活动</title>
+<link rel="stylesheet" href="/run_plug/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/run_style/cn/default/css/main.css" />
+<link rel="stylesheet" href="/run_style/cn/default/css/animate.min.css">
+<style>
+	body{margin: 0px;padding: 0px;}
+	.mid-autu{width: 100%;}
+	.apply-back{background: url(../images/mid-autumnfestival-background-color.jpg);border: none;background-repeat: no-repeat;background-size: cover;margin-bottom: 0px;}
+	.apply-back .row{background-color: #fff;padding: 20px 0px;}
+</style>
+<!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+	<img class="mid-autu" src="../images/mid-autumnfestival-background.jpg" alt="中秋背景图片">
+	<div class="apply-back">
+		<div class="row">
+
+	    	<div class="col-md-4 text-center">
+
+	        	<p class="apply-tt">预约优惠，请致电</p>
+
+	            <p class="apply-txt">180-3609-7073</p>
+
+	            <p class="apply-tt apply-tt02">您还可以</p>
+
+	            <a href="http://p.qiao.baidu.com/im/index?siteid=8274707&amp;ucid=19491859&amp;cp=%E7%A6%8F%E4%B9%90%E9%A2%82&amp;cr=www.fulesong.com.cn&amp;cw=360%E6%90%9C%E7%B4%A2" target="_bank" class="btn-tc">在线咨询我们</a>
+
+	            <div class="apply-a"><a href=""><img src="/run_style/cn/default/images/qq.png"></a><a href=""><img src="/run_style/cn/default/images/wb.png"></a><a href=""><img src="/run_style/cn/default/images/wx.png"></a></div>
+
+	        </div>
+
+
+
+	        <div class="col-md-8 top-media">
+
+	        	<form action="/index_form_submit.html" method="post" id="form">
+
+	        	<input type="hidden" name="formid" value="1">
+
+	        	<input type="hidden" name="area" id="area">
+
+	            <div class="form-border">
+	                <div class="form-border-center">
+
+	                	<div class="clearfix">
+
+	                    	<div class="pull-left form-txt">姓名：</div>
+
+	                        <div class="pull-left form-margin"><input type="input" class="form-control form-control-input" name="name"></div>
+
+	                    </div>
+
+	                </div>
+
+	               <div class="form-border-center">
+
+	                	<div class="clearfix">
+
+	                    	<div class="pull-left form-txt">电话：</div>
+
+	                        <div class="pull-left form-margin"><input type="input" class="form-control form-control-input" name="phone"></div>
+
+	                    </div>
+
+	                </div>
+
+	               <div class="form-border-center">
+
+	                	<div class="clearfix">
+
+	                    	<div class="pull-left form-txt">回访：</div>
+
+	                        <div class="pull-left form-margin">
+	                            <label class="radio-inline">
+	                              <input type="radio" name="huifang" id="inlineRadio1" value="家庭优惠" checked=""> 家庭优惠
+	                            </label>
+	                            <label class="radio-inline">
+	                              <input type="radio" name="huifang" id="inlineRadio2" value="个人优惠"> 个人优惠
+	                            </label>
+	                        </div>
+
+	                    </div>
+
+	                </div>
+
+	                <div class="form-border-top form-border-bottom text-center">
+						<button type="submit" class="btn btn-look formbtn">在线预约申请</button>
+	                </div>
+	            </div>
+	            </form>
+
+	        </div>
+
+	    </div>
+
+	</div>
+<script src="/run_style/cn/default/js/jquery-1.9.1.js"></script>
+<script src="/run_style/cn/default/js/bootstrap.js"></script>
+<script src="/run_style/cn/default/js/top.js"></script>
+<script src="/run_style/cn/default/js/wow.js"></script>
+<script src="/run_style/cn/default/js/distpicker.data.js"></script>
+<script src="/run_style/cn/default/js/distpicker.js"></script>
+<script src="/run_plug/js/jquery.form.js"></script>
+<script src="/run_plug/js/layer.js"></script>
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd8927754c0e6e54c1d7cc7c6697ac08e' type='text/javascript'%3E%3C/script%3E")) </script>
+<script>
+$('.formbtn').click(function(){
+	$('#area').val("中秋活动预约申请");
+	ajaxset();
+	return false;
+});
+function ajaxset(){
+	$('#form').ajaxSubmit({
+		success : complete,
+		dataType : 'json'
+	});
+}
+function complete(data){
+    if(data.status == 1){
+        alert('您已经成功预约申请')
+    }else{
+        alert('预约失败');
+    }
+}
+</script>
+<!-- 百度推广离线宝start -->
+<script>
+var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?ce9dfdbcb03dabfb9f0dc3d3303ee4b1"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
+<script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=10543813"></script>
+<!-- 百度推广离线宝end -->
+</body>
+</html>
